@@ -40,3 +40,7 @@
   font-size: 1em;
   color: #F9F0DA;
 }
+.message{
+  color: #9E9C9C;
+  display: none;
+}

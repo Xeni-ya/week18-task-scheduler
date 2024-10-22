@@ -12,13 +12,14 @@
     <div class="add-task-wrap">
       <h2 class="title">Добавить задачу</h2>
       <input type="text" class="task-input" placeholder="Введите задачу...">
-      <button class="add-task-button">Добавить</button>
+      <button class="add-task-button" onclick="addTask()">Добавить</button>
     </div>
 
     <div class="task-list-wrap">
       <h2 class="title">Список задач:</h2>
       <ul id="tasks-list"></ul>
       <button class="clear-list-button" disabled onclick="clearList()">Очистить список</button>
+      <p class="message">Задачи отсутствуют</p>
     </div>
 
   </div>
